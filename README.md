@@ -12,86 +12,55 @@ https://green-cart-be-flame.vercel.app/
 📖 Overview
 
 GreenCart demonstrates real-world full-stack development practices including:
-
-RESTful API design
-
-Secure authentication
-
-Environment-based configuration
-
-Cloud-based deployment
-
+- RESTful API design
+- Secure authentication
+- Environment-based configuration
+- Cloud-based deployment
 The application is structured for maintainability and scalability, following industry-standard project organization.
 
 ✨ Key Features
-User
 
-User registration and authentication
+- User
+- User registration and authentication
+- Browse grocery products
+- Add and remove items from cart
+- Manage delivery addresses
+- Place orders and view order history
+- Seller / Admin
+- Seller authentication
+- Product management (create, update, delete)
+- Order visibility
 
-Browse grocery products
-
-Add and remove items from cart
-
-Manage delivery addresses
-
-Place orders and view order history
-
-Seller / Admin
-
-Seller authentication
-
-Product management (create, update, delete)
-
-Order visibility
-
-System
-
-JWT-based authentication
-
-Secure cookie handling
-
-Cloudinary image uploads
-
-Clean REST APIs
-
-Responsive user interface
+System:
+- JWT-based authentication
+- Secure cookie handling
+- Cloudinary image uploads
+- Clean REST APIs
+- Responsive user interface
 
 🧰 Tech Stack
-Frontend
 
-React (Vite)
+FRONTEND 🖥️
+- React (Vite)
+- React Router
+- Context API
+- Axios
+- Tailwind CSS
 
-React Router
+BACKEND 🛠️
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- Cloudinary
+- Cookie-Parser
+- CORS
 
-Context API
+Deployment 🚀
 
-Axios
-
-Tailwind CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB (Mongoose)
-
-JWT Authentication
-
-Cloudinary
-
-Cookie-Parser
-
-CORS
-
-Deployment
-
-Frontend: Vercel
-
-Backend: Vercel
-
-Database: MongoDB Atlas
+- Frontend: Vercel
+- Backend: Vercel
+- Database: MongoDB Atlas
 
 📁 Project Structure
 GreenCart/
@@ -136,25 +105,17 @@ npm run dev
 GET /
 Response: Hello server
 
-📌 Deployment Notes
+📌 Deployment Notes:
+- Backend deployed as a serverless function on Vercel
+- Frontend configured with environment-specific API endpoints
+- CORS configured for production and local environments
 
-Backend deployed as a serverless function on Vercel
-
-Frontend configured with environment-specific API endpoints
-
-CORS configured for production and local environments
-
-🔮 Future Improvements
-
-Online payment integration
-
-Order status tracking
-
-Admin dashboard analytics
-
-Advanced product search and filtering
-
-Notifications system
+🔮 Future Improvements: 
+- Online payment integration
+- Order status tracking
+- Admin dashboard analytics
+- Advanced product search and filtering
+- Notifications system
 
 👤 Author
 
