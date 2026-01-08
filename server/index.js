@@ -19,7 +19,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:5173',
-      'https://your-frontend.vercel.app' // 👈 replace
+      'https://green-cart-self-beta.vercel.app' // 👈 replace
     ],
     credentials: true,
   })
